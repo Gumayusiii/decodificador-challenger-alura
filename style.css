@@ -227,6 +227,9 @@ footer{
     .conteudoLateral__img{
         display: none;
     }
+    footer {
+        bot:0;
+    }
 }
 
 @media (max-width: 375px){
@@ -249,6 +252,9 @@ footer{
     .conteudo__sectionPrincipal__botao2{
         padding: 5%;
         font-size: 0.7rem;
+    }
+    footer {
+        bot:0;
     }
 }
 
