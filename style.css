@@ -204,22 +204,28 @@ footer{
         width: 100%;
     }
     .conteudo__sectionPrincipal__caixaDeTexto {
+        padding-top: 5%;
         max-height: 11rem;
+        color: var(--cor-terciaria);
+    }
+    .conteudo__sectionPrincipal__caixaDeTexto::placeholder,.conteudo__sectionPrincipal__caixaDeTexto{
+        color: var(--cor-terciaria);
     }
     .conteudo__sectionPrincipal__botao1,
     .conteudo__sectionPrincipal__botao2{
-        width: 50%;
+        width: 45%;
+    }
+    .conteudo__sectionPrincipal__botao2{
+        border: 0.125rem solid white;
+        color: var(--cor-terciaria);
     }
     .conteudoLateral,
     .conteudoLateral__saida
     {
-        width: 100%
+        width: 90%
     }
     .conteudoLateral__img{
         display: none;
-    }
-    footer{
-        position: relative;
     }
 }
 
@@ -228,7 +234,19 @@ footer{
     .conteudo__sectionPrincipal__avisoBotoes{
         margin: .5rem;
     }
+    .conteudo__sectionPrincipal__botao1,
+    .conteudo__sectionPrincipal__botao2{
+        padding: 3%;
+        font-size: 0.8rem;
+    }
     .conteudo__sectionPrincipal__caixaDeTexto {
         max-height: 9.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1060px) {
+    .conteudo__sectionPrincipal__botao1,
+    .conteudo__sectionPrincipal__botao2{
+        font-size: 0.9rem;
     }
 }
