@@ -244,6 +244,14 @@ footer{
     }
 }
 
+@media (min-width: 400px) and (max-width: 450px) {
+    .conteudo__sectionPrincipal__botao1,
+    .conteudo__sectionPrincipal__botao2{
+        padding: 5%;
+        font-size: 0.7rem;
+    }
+}
+
 @media (min-width: 769px) and (max-width: 1060px) {
     .conteudo__sectionPrincipal__botao1,
     .conteudo__sectionPrincipal__botao2{
