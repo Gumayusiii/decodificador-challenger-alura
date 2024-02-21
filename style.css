@@ -194,7 +194,6 @@ footer{
     .conteudo{
         flex-direction: column;
         height: 95%;
-        overflow: hidden;
     }
     .conteudo__sectionPrincipal{
         width: 90%;
@@ -229,7 +228,7 @@ footer{
         display: none;
     }
     footer {
-        position: absolute;
+        position: relative;
     }
 }
 
@@ -246,6 +245,9 @@ footer{
     .conteudo__sectionPrincipal__caixaDeTexto {
         max-height: 9.5rem;
     }
+    footer {
+        position: relative;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 450px) {
@@ -258,7 +260,7 @@ footer{
         font-size: 0.7rem;
     }
     footer {
-        position: absolute;
+        position: relative;
     }
 }
 
@@ -266,5 +268,8 @@ footer{
     .conteudo__sectionPrincipal__botao1,
     .conteudo__sectionPrincipal__botao2{
         font-size: 0.9rem;
+    }
+    footer {
+        position: relative;
     }
 }
