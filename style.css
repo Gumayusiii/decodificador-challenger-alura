@@ -36,7 +36,6 @@ body{
     background-image: var(--cor-bg);
     height: 100vh;
     overflow: auto;
-    overflow-y: hidden;
 }
 a:hover{
     cursor: pointer;
