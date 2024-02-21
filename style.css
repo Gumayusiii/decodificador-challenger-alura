@@ -193,7 +193,8 @@ footer{
 @media (max-width: 768px){
     .conteudo{
         flex-direction: column;
-        height: 95%
+        height: 95%;
+        overflow: hidden;
     }
     .conteudo__sectionPrincipal{
         width: 90%;
@@ -248,6 +249,9 @@ footer{
 }
 
 @media (min-width: 400px) and (max-width: 450px) {
+    .conteudo{
+        overflow: hidden;
+    }
     .conteudo__sectionPrincipal__botao1,
     .conteudo__sectionPrincipal__botao2{
         padding: 5%;
