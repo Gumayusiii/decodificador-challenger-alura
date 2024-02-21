@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador - Made by Gumayusiii</title>
+    
+</head>
+<body>
+    <main class="conteudo">
+        <div class="conteudo__sectionPrincipal">
+            <div>
+                <img src="./assets/logo.svg" alt="Logo Alura">
+                <br>
+                <textarea oninput="autoajuste(this)" placeholder="Digite seu texto" class="conteudo__sectionPrincipal__caixaDeTexto"></textarea>
+            </div>      
+            <div class="conteudo__sectionPrincipal__avisoBotoes">
+                <div class="conteudo__sectionPrincipal__aviso">
+                    <img src="./assets/exclamacao.svg" alt="Alerta." class="conteudo__sectionPrincipal__img__aviso">  
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="conteudo__sectionPrincipal__botoes">
+                    <a onclick="receberCriptografar()" class="conteudo__sectionPrincipal__botao1">Criptografar</a>
+                    <a onclick="receberDescriptografia()" class="conteudo__sectionPrincipal__botao2">Descriptografar</a>
+                </div>
+            </div>
+        </div>
+        <aside class="conteudoLateral">
+            <textarea class="conteudoLateral__saida" id="Copy" readonly></textarea>
+            <div class="conteudoLateral__imgText">
+                <div class="sumir">
+                    <img src="./assets/lupa.svg" alt="Garoto admirando diamante com uma lupa." class="conteudoLateral__img">
+                    <h1 class="conteudoLateral__text__titulo">Nenhuma mensagem encontrada</h1>
+                    <p class="conteudoLateral__text__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <a class="conteudo__conteudoLateral__botao3" onclick="copiarText()">copiar</a>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p class="rodape">&#169;Made by Gumayusiii</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
