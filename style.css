@@ -228,7 +228,7 @@ footer{
         display: none;
     }
     footer {
-        position: relative;
+        position: absolute;
     }
 }
 
@@ -254,7 +254,7 @@ footer{
         font-size: 0.7rem;
     }
     footer {
-        position: relative;
+        position: absolute;
     }
 }
 
